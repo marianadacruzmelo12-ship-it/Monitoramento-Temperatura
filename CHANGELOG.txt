@@ -1,0 +1,51 @@
+CONTROLE DE VERSÃO — SISTEMA DE MONITORAMENTO DE TEMPERATURA
+
+[v1.0] — Leitura do TMP36
+
+Arquivo: Monitoramento_v1.0.ino
+
+* Implementada a leitura do sensor TMP36.
+* Conversão da leitura analógica em temperatura.
+* Exibição da temperatura no Monitor Serial.
+
+Commit:
+"Implementa leitura do TMP36"
+
+[v1.1] — LCD 16×2
+
+Arquivo: Monitoramento_v1.1.ino
+
+* Adicionado o LCD 16×2.
+* Implementada a exibição da temperatura no LCD.
+* Mantida a leitura do sensor TMP36.
+
+Commit:
+"Adiciona exibição no LCD"
+
+[v1.2] — LEDs de estado
+
+Arquivo: Monitoramento_v1.2.ino
+
+* Adicionados três LEDs para indicar o estado da temperatura.
+* LED amarelo: abaixo de 20 °C — FRIO.
+* LED verde: de 20 °C até 29,9 °C — NORMAL.
+* LED vermelho: 30 °C ou mais — ALERTA.
+
+Commit:
+"Implementa LEDs de alerta"
+
+[v2.0] — Sistema completo e revisado
+
+Arquivo: Monitoramento_v2.0.ino
+
+* Integração do TMP36, LCD e LEDs.
+* Revisão das condições de temperatura.
+* Correção da classificação das faixas de temperatura.
+* Adição de comentários no código.
+* Revisão geral do funcionamento do sistema.
+* Finalização da documentação técnica.
+
+Commit:
+"Finaliza documentação técnica"
+
+VERSÃO ATUAL: v2.0
